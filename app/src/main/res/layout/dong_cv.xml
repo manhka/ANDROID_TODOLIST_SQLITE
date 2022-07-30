@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:weightSum="10"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+    android:id="@+id/tenCV"
+    android:padding="10dp"
+    android:layout_weight="8"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Ten Cong Viec"
+    android:textSize="26sp"
+    android:textColor="#f00"
+    />
+    <ImageView
+        android:id="@+id/delete"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/delete"
+        />
+    <ImageView
+        android:id="@+id/edit"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/edit"
+        />
+</LinearLayout>
+
